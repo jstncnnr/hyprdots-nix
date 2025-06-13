@@ -1,7 +1,7 @@
 {
   description = "Justin's Hyprland config";
 
-  outputs = {
+  outputs = inputs: {
     nixosModules = {
       default = import ./modules/nixos;
     };
